@@ -1,22 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 .App {
   text-align: center;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #171717;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 60px;
+  color: #f3f3f3;
+  font-size: 28px;
+  
 }
 
-.App-link {
-  color: #09d3ac;
+.App-header h3 {
+  color: rgb(120, 209, 242);
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.fa-clock {
+  color: #fff;
+}
+.time-view {
+  background-color: #414141;
+  padding: 15px;
+  color: #f3f3f3;
+}
+
+.time {
+  color: #f3f3f3;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px  dashed #aaa;
+  cursor: pointer;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+button.start {
+  background-color: #7ad895;
+}
+
+button.lap {
+  background-color: #fff;
+}
+button.pause {
+  background-color: rgb(255, 196, 108);
+}
+
+button.stop {
+  background-color: rgb(177, 58, 58);
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+}
+
+.lap {
+  padding: 15px;
+  border-bottom: 1px dashed #414141;
 }
